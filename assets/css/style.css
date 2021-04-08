@@ -1,0 +1,343 @@
+*{
+	padding: 0%;
+	margin: 0 auto;
+	font-family: "Tahoma";
+}
+#top, #top form { 
+    padding: 1%;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#pesquisa{
+    height: 36px;
+    margin: -6px;
+    width: 36px;
+    background-color: white;
+    border: 1px solid #135680;
+    padding: 5px;
+
+}
+
+#top input{ 
+    height: 30px !important;
+	width: 500px !important;
+    margin: 5px !important;
+    margin-left: 10% !important;
+}
+
+#menu {
+    padding: 0.5%;
+    background-color: #1F8ACC;
+    color: white;
+	
+}
+
+#menu a{
+	text-decoration: none;
+	padding: 1%;
+    margin: 0 auto;
+    color: white;
+
+}
+#top input{
+    max-width: 600px;
+	height: 40px;
+	width: 350px;
+	border: 1px solid #135680;
+	font-size: 16pt;
+    padding: 2px 5px;
+    background-color: white;
+}
+.formulario{
+	height: 40px;
+	width: 350px;
+	margin: 5px;
+	border-radius: 3px;
+	border: 1px solid #135680;
+	font-size: 16pt;
+    padding: 2px 5px;
+    background-color: white;
+}
+
+textarea {
+    resize: none;
+ }
+
+input[type=submit]{
+    background-color: #26ACFF !important;
+    color: white;
+}
+
+.header{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+    width: 100% !important;
+}
+
+#formularioLogin{
+    max-width: 25%;
+    padding: 5%;
+    text-align: left;
+    width: 40%;
+    padding: 5%;
+    text-align: center;
+}
+#formularioLogin p{
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.35fr 1fr 1.1fr 1.1fr 0.8fr;
+    grid-template-areas: "titulo titulo info" "imagem imagem info" "imagem imagem info" "descricao descricao info" "descricao descricao info";
+  }
+  
+.imagem {
+    grid-area: imagem; 
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+    width: 100% !important;
+    text-align: center;
+}
+  
+.titulo { 
+    grid-area: titulo; text-align: center;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+    width: 100% !important;
+    background-color: greem;
+
+
+}
+  
+.info { 
+    grid-area: info; 
+    text-align: center;
+    align-items: left;
+    width: 100% !important;
+    margin-top: 30%;
+    font-size: 16pt;
+}
+
+#anuncio{
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.descricao { 
+    padding-top: 5%;
+    grid-area: descricao;
+    text-align: left;
+
+}
+
+#centro{
+    text-align: center;
+}
+#cantodireito{
+    text-align: right;
+}
+
+#conteudo { 
+    text-align: center;
+ }
+
+ 
+#conteudo button { 
+    text-align: center;
+    background-color: #26ACFF;
+    font-size: 16pt;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+ }
+
+
+#conteudo fieldset{
+    border: 0;
+    padding: 10%;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+#conteudo fieldset{
+    border: 0;
+    padding: 10%;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+#conteudo table{
+    border-collapse: collapse;
+    border: 3px solid #135680;
+    padding: 10px;
+
+}
+
+ #rodape { 
+	margin: 10%;
+	text-decoration: none;
+	margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+	background-color: #26ACFF;
+	height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #135680;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	height: 0;
+}
+
+#preco{
+    /*background-image: url(assets/css/img/preco.png) !important;
+    background-size: 100% !important;
+    background-position: center !important;
+    background-color: #ffa426;*/
+    
+}
+
+  .visible{
+    display: block;
+  }
+  .hidden{
+    display: none;
+  }
+  #product-slider{
+    background-color: #fff;
+  }
+  .product-box{
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  .product-desc{
+    font-weight: bold;
+    padding: 10px 0px;
+  }
+  .product-desc h4{
+    margin: 0;
+    color: #446AAF;
+    font-size: 16px;
+  }
+  .product-desc p{
+    color: #3C3F39;
+    margin: 10px 0px 8px;
+  }
+  .product-desc button{
+    padding: 9px 15px;
+    border-radius: 3px;
+    border: 1px solid #c1c1c1;
+    font-weight: bold;
+    color: #2868AF;
+    background: linear-gradient(#FAFDFF, #E8E8E8);
+    background: -moz-linear-gradient(#FAFDFF, #E8E8E8);
+    background: -webkit-linear-gradient(#FAFDFF, #E8E8E8);
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .jscarousal-horizontal{
+    width: 70%;
+    overflow: hidden;
+    height: 400px;
+    padding: 30px 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .jscarousal-horizontal-back, .jscarousal-horizontal-forward{
+    float: left;
+    width: 23px;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    color: #5D5D5D; 
+    font-size: 22px;
+  }
+  .jscarousal-horizontal-forward{
+    float: right;
+  }
+  .jscarousal-horizontal-back:before, .jscarousal-horizontal-forward:before{
+    font-family: FontAwesome;
+  }
+  .jscarousal-horizontal-back:before{
+    content: "\f053";
+  }
+  .jscarousal-horizontal-forward:before{
+    content: "\f054";
+  }
+  .jscarousal-contents-horizontal{
+    width: calc(100% - 50px);
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+  }
+  .jscarousal-contents-horizontal > .visible{
+    position: absolute;
+    width: 100%;
+  }
+  .jscarousal-contents-horizontal > .visible > .product-box{
+    float: left;
+    margin: 0px 1%;
+    width: 18%;
+  }
+  .jscarousal-contents-horizontal img{
+    width: 100%;
+    
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: 1.7fr 1.5fr 3.6fr 1.5fr 1.7fr;
+    grid-template-rows: 1;
+    grid-template-areas: ". imagemAnu tituloAnun PrecoAnun .";
+  }
+  
+  
+  .imagemAnu { grid-area: imagemAnu; }
+  
+  .tituloAnun { grid-area: tituloAnun; }
+  
+  .PrecoAnun { grid-area: PrecoAnun; }
+
+footer{
+  height: 75px;
+}
+#menuPaginas a, spam{
+  border: 1px solid;
+  padding: 5px;
+  margin: 5px;
+  font-size: 16pt;
+}
